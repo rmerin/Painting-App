@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paint App</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            height: 100vh;
+            justify-content: center;
+        }
+
+        canvas {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <input type="color" id="colorPicker" value="#000000"> <button id="pencilBtn">Pencil</button> <button id="shovelBtn">Shovel</button> <button id="bucketBtn">Bucket</button> <button id="eraserBtn">Eraser</button> <canvas id="paintCanvas" width="800" height="600"></canvas> <br> <button id="clearBtn">Clear</button>
+    <a href="Credits.html"><button>Credits</button></a>
+    <script src="PaintScript.js"></script>
+</body>
+</html>
